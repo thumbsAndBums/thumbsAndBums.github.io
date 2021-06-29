@@ -1,0 +1,496 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME | FLO ENERGY</title>
+<!-- Facebook Pixel Code -->
+    <script src="https://connect.facebook.net/signals/config/462500324811035?v=2.9.42&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '462500324811035'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=462500324811035&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&amp;display=swap" rel="stylesheet">
+      <style>
+          body {
+              margin: 0;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 300;
+              color: #333;
+              width: 100vw;
+              overflow-x: hidden;
+          }
+
+          img {
+              width: 100%
+          }
+
+          header {
+            width: 94vw;
+            background: rgba(51, 51, 51, 0.089);
+            padding: 30px 3%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          h1{
+              font-weight: 900;
+          }
+          h2 {
+              font-size: 48px;
+              font-size: calc(48px + 2vw);
+              margin: 33px 0;
+          }
+          .underlined:after{
+                content: "";
+                height: 3px;
+                width: 22%;
+                display: block;
+                background-color: #f8c937;
+          }
+          header .logo {
+            width: 300px;
+            display: inline-block;
+          }
+          a {
+              text-decoration: none;
+              font-weight: 500;
+          }
+          .yellow-bg {
+            background-color: #f8c937;
+          }
+          .yellow-bg:hover {
+            background-color: #3aa3dd;
+          }
+          .yellow {
+            color:  #f8c937;    
+          }
+          .yellow:hover {
+            color:  #333;    
+          }
+          .black {
+              color: #333;
+          }
+          .black-bg {
+              background-color: #333
+          }
+          .blue-bg {
+            background-color: #3aa3dd;
+          }
+          .blue {
+            color: #3aa3dd;
+          }
+          .white {
+            color: #fff;
+          }
+          .white-bg {
+            background-color: #fff;
+          }
+          header nav {
+              display: flex;
+              justify-content: space-around;
+          }
+          .nav-link {
+            padding: 10px 12px;
+    margin: 0 10px;
+          }
+
+          .slide-show{
+            height: 49vw;
+            background-size: cover;
+            position: relative;
+            min-height: 500px;
+          }
+          .main-text-wrapper {
+              position: absolute;
+              top: 8%;
+              left: 8%;
+          }
+          .main-text-wrapper h1 {
+            font-size: 58px;
+          }
+          .main-text-wrapper h2 {
+            font-size: 45px;
+            max-width: 60%;
+          }
+
+
+          .main-text-wrapper a {
+            text-align: center;
+            display: block;
+            max-width: 50%;
+          }
+
+          .main-text-wrapper .reverse-carrot {
+            transform: rotate(90deg);
+            display: block;
+            font-size: 20px;
+          }
+          .hpt-img {
+              background-image: url(https://static.wixstatic.com/media/82c08d3efb804aa5a2af21ab98acde29.jpg);
+              width: 50%;
+              background-size: 300%;
+              background-position: 63% 71%;
+          }
+          .hpt {
+              display:flex;
+              background: rgb(51 51 51 / 3%);
+          }
+          
+          .hpt-wrapper {
+            padding: 10vw 5%;
+            width: 45%;
+          }
+
+          .hpt-wrapper h2 {
+              margin: 0 0 40px;
+          }
+          section{}
+          .form {
+            padding: 3%;
+           
+            background: rgb(51 51 51 / 3%);
+          }
+          form {
+            background: #fff;
+            padding: 3%;
+            display: block;
+            margin: auto;
+          }
+          .misc-section {
+              display: flex;
+              justify-content: center;
+              background-color: #3aa3dd;
+              padding: 3% 5%;
+          }
+          .divider-left {
+              border-right: solid 2px #fff;
+          }
+          .misc-section div {
+            width: 25%;
+            text-align: center;
+          }
+          .huge-font h2 {
+            line-height: 60px;
+            font-size: calc(86px + 2vw);
+          }
+          .misc-section h2 {
+            margin: 0;
+            color: #fff;
+
+            height: 103px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .misc-section h3 {
+            margin-top: 0;
+            color: #fff;
+          }
+          form {
+              display: grid;
+              grid-template-areas:
+                "a a b b c c"
+                "d d d d d d"
+                "e e f f k k"
+                "g g h h i i"
+                "j j j j j j";
+            grid-gap: 38px; 
+          }
+          input {
+              border: none;
+            border-bottom: 1px solid #333;
+            font-size: 18px;
+          }
+          .a {
+            grid-area: a;
+          }
+
+          .b {
+            grid-area: b;
+          }
+
+          .c {
+            grid-area: c;
+          }
+
+          .d {
+            grid-area: d;
+          }
+
+          .e {
+            grid-area: e;
+          }
+
+          .f {
+            grid-area: f;
+          }
+
+          .g {
+            grid-area: g;
+          }
+
+          .h {
+            grid-area: h;
+          }
+          .k {
+              grid-area: k;
+          }
+          .i {
+            grid-area: i;
+          }
+
+          .j {
+            grid-area: j;
+            padding: 0;
+            margin: 0;
+            border: none;
+          }
+          .j label {
+            display: block;
+          }
+          .form-text {
+            background: #fff;
+            padding: 44px;
+            text-align: center;
+          }
+          textarea {
+              width: 100%;
+          }
+          .submit {
+              border: none;
+              padding: 12px;
+          }
+          .contact {
+            background: rgb(51 51 51 / 3%);
+          }
+          .contact h2 {
+            text-align: center;
+          }
+          .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 80%;
+            max-width: 1200px;
+            min-width: 300px;
+            margin: auto;
+            padding-bottom: 100px;
+          }
+          .contact-info > div{
+            width: 40%;
+            min-width: 300px;
+            text-align: center;
+          }
+          @media (max-width: 767px) {
+            .slide-show {
+                height: 86vw;
+            }
+            .main-text-wrapper h1 {
+                font-size: 30px;
+            }
+            .main-text-wrapper h2 {
+                font-size: 28px;
+                margin: 33px 0;
+            }
+          }
+
+          @media only screen and (max-width: 767px) {
+            .main-text-wrapper{
+                position: absolute;
+                top: 8%;
+                left: 8%;
+                width: 84%;
+                text-align: center;
+            }
+            .main-text-wrapper h1 {
+                font-size: 30px;
+                width: 100%;
+            }
+            .main-text-wrapper h2 {
+                font-size: 28px;
+                margin: 33px 0;
+                width: 100%;
+                max-width: none;
+            }
+            .main-text-wrapper a {
+              
+                margin:  auto;
+                
+            }
+              .hpt {
+                  flex-wrap: wrap;
+              }
+              .hpt-wrapper {
+                width: 100%;    
+              }
+            .hpt-img {
+                width: 100%;
+                height: 70vw;
+            }
+            .misc-section {
+                display: none;
+            }
+            form {
+              display: grid;
+              grid-template-areas:
+                "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "f"
+                "g"
+                "h"
+                "i"
+                "k"
+                "j";
+            }
+            header nav {
+                display: none;
+            }
+          }
+          
+      </style>
+</head>
+<body>
+    <header>
+        <a href="https://www.floenergy.solar/" class="logo">
+            <img src="https://static.wixstatic.com/media/5b9a3d_42857bef563c474db5f2cd7630551485~mv2.png" alt="FloEnergyOfficialLogo.png">
+        </a>
+        <nav>
+            <a href="#form" class="nav-link black">QUALIFY</a>
+            <a href="#hpt" class="nav-link black">WHY FLO?</a>
+            <a href="#contact" class="nav-link black">CONTACT</a>
+            <a href="#form" class="nav-link nav-button black yellow-bg">FREE QUOTE</a>
+        </nav>
+    </header>
+    <div>
+        <section class="slide-show" style="background-image: url(https://static.wixstatic.com/media/647adb773b624d258e5c1d58d4d7f684.jpg/v1/fill/w_1126,h_718,al_c,q_85/647adb773b624d258e5c1d58d4d7f684.jpg)">
+           <div class="main-text-wrapper">
+                <h1 class="white">SAVE MONEY<br>SAVE THE PLANET.</h1>
+            <h2 class="white">MAKE CHOOSING SOLAR EASY WITH
+                    FLOENERGY.</h2>
+                <a class="white">SEE HOW YOU CAN QUALIFY BELOW<br><span class="reverse-carrot">&gt;</span></a>
+            </div>
+        </section>
+        <section id="hpt" class="hpt">
+            <div class="hpt-wrapper">
+                <h2 class="underlined">WHY <span class="blue">FLO?</span></h2>
+                Going solar is a no-brainer, and FLOENERGY makes the transition easy and painless. Our experienced Energy Consultants are knowledgable and informative and will meet in your home, to answer any questions you may have about the process.
+                We provide top-notch panels and use hardworking, well-respected local installers get your system up and running. Did we mention there's no upfront cost?
+                <a>Contact us</a> today for a free consultation to see what a future with solar through FLOENERGY looks like for you!
+            </div>
+            <div class="hpt-img"></div>
+        </section>
+        <section class="misc-section">
+            <div class="divider-left">
+                <h2>2020</h2>
+                <h3>Year<br> Established</h3>
+            </div>
+            <div class="divider-left">
+                <h2>400+</h2>
+                <h3>Systems<br>Sold</h3>
+            </div>
+            <div class="huge-font">
+                <h2>∞</h2>
+                <h3>Dollars<br>Saved</h3>
+            </div>
+
+        </section>
+        <section id="form" class="form">
+            <div class="form-text">
+                <h2>HOW DO I <span class="blue">QUALIFY?</span></h2>
+                <p style="font-weight: 500">Did you know that there are both State and Federal Incentives to go solar?
+                        <br>Let's see if solar is a good fit for you</p>
+                <p>Fill out the form below and and one of our Energy Experts will contact you for a consultation.</p>
+            </div>
+            <form action="https://app.99inbound.com/api/e/5jbT8Z11" method="POST" target="_blank">
+                <div style="position: absolute; left: -5000px;">
+                        <input type="checkbox" name="bluetooth_yellow_polka_dotted_capybara" value="1" tabindex="-1" autocomplete="no">
+                      </div>
+                <input name="name" type="text" class="input col-3 a" placeholder="Name">
+                <input name="phone" type="tel" class="input col-3 b" placeholder="Phone Number">
+                <input name="email" type="email" class="input col-3 c" placeholder="Email">
+                <input name="address" type="text" class="input d" placeholder="Address">
+                <input name="summer_bill" type="text" class="input col-2 e" placeholder="Average bill in summer">
+                <input name="winder_bill" type="text" class="input col-2 f" placeholder="Average bill in winter">
+                <fieldset class="radios g">
+                    <legend>How would you rate your credit score?</legend>
+                    <input type="radio" id="male" name="credit" value="Fair (630-689)">
+                    <label for="male">Fair (630-689)</label><br>
+                    <input type="radio" id="female" name="credit" value="Good (690-719)">
+                    <label for="female">Good (690-719)</label><br>
+                    <input type="radio" id="other" name="credit" value="Excellent (720-850)">
+                    <label for="other">Excellent (720-850)</label><br>
+                </fieldset>
+                <fieldset class="radios h">
+                    <legend>What is your taxable income level?</legend>
+                    <input type="radio" id="income1" name="income" value="Less than $40,000">
+                    <label for="income1">Less than $40,000</label><br>
+                    <input type="radio" id="income2" name="income" value="More than $40,000">
+                    <label for="income2">More than $40,000</label><br>
+                </fieldset>
+                <fieldset class="radios i">
+                    <legend>What intrigues you the most about going solar?</legend>
+                    <input type="radio" id="num1" name="credit" value="Monthly savings on my electricity bill">
+                    <label for="num1">Monthly savings on my electricity bill</label><br>
+                    
+                    <input type="radio" id="num2" name="credit" value="Increasing the value of my home for resale">
+                    <label for="num2">Increasing the value of my home for resale</label><br>
+                    
+                    <input type="radio" id="num3" name="credit" value="Helping the environment">
+                    <label for="num3">Helping the environment</label><br>
+                </fieldset>
+                <fieldset class="radios k">
+                        <legend>Current energy provider?</legend>
+                        <input type="radio" id="duke" name="current_provider" value="Duke Energy">
+                        <label for="duke">Duke Energy</label><br>
+                        
+                        <input type="radio" id="oth" name="current_provider" value="Other">
+                        <label for="oth">Other</label><br>
+                    </fieldset>
+                <fieldset class="j">
+                    <label>Questions about solar?</label><br>
+                    <textarea name="questions" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                
+                <button class="submit yellow-bg black">SUBMIT</button>
+            </form>
+        </section>
+        <section><img style="width: 100vw;" src="https://static.wixstatic.com/media/5b9a3d_06c90f6912f246ebaf42eefb58fbfd0b~mv2.png/v1/fill/w_980,h_330,al_t,q_85,usm_0.66_1.00_0.01/5b9a3d_06c90f6912f246ebaf42eefb58fbfd0b~mv2.webp" alt="map"></section>
+        <section id="contact" class="contact">
+            <h2 class="blue">CONTACT</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>Inquiries</h3>
+                    <p>
+                        For any inquiries or questions please email: <a class="blue" href="mailto:info@floenergy.solar" target="_self">info@floenergy.solar</a> or fill out the following form. Please contact your Energy Consultant for adjustments with your appointment.
+                    </p>
+                </div>
+                <div>
+                    <h3>Employment</h3>
+                    <p>
+                        To apply for a job with FLOENERGY, please email: <a class="yellow" href="mailto:info@floenergy.solar" target="_self">info@floenergy.solar</a>, or contact us on our Instagram @flo.energy.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer></footer>
+
+</body></html>
